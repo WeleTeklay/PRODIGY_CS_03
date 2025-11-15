@@ -101,3 +101,71 @@ First tutorials set the tone. Highlight:
 **Engineering tasks**: build lexer, parser, AST evaluator, function call stack, OOP model, `try/catch`, async scheduler, AI stub, REPL, and test suite.
 
 > Each milestone ends with a tangible demo — proving execution, not just ideas.
+> 
+
+
+
+
+# 🦅 NISR Programming Language — Beginner Manual (v1.0)
+
+Welcome to **NISR**!  
+This guide helps new users quickly learn how to write, compile, and run their first NISR programs.
+
+---
+
+## 📂 1. Create Your First NISR File
+
+### **1.1 Create the File**
+All NISR source files must use the `.ns` extension.
+
+- **File Extension:** `.ns`
+- **Example Filename:** `test.ns`
+
+### **1.2 Open the File**
+Open your newly created `.ns` file in a code editor such as **VS Code**.
+
+---
+
+## 📝 2. Write Your First Code
+
+```nisr
+Print("Hello World")
+```
+
+---
+
+## ▶️ 3. Run NISR Code
+
+### Compile:
+```bash
+nsrcom test.ns -o main
+```
+
+### Run:
+```bash
+nsrint main.nb
+```
+
+---
+
+## 🖨️ 4. Print() Function
+
+### Multiple values:
+```nisr
+Print("Hello", "World")
+```
+
+### Custom separator:
+```nisr
+Print("hello", "world", sep="*")
+```
+
+### Expressions:
+```nisr
+Print(10 ** 2)
+```
+
+---
+
+
+
